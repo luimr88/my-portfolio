@@ -1,3 +1,8 @@
+:root {
+    --darker-blue: #2a607c;
+    --lighter-blue: #799CB5;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -67,49 +72,75 @@ header a {
     color: white;
 }
 
+/* End of header styling */
+
+footer h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
 .hero {
     height: 500px;
     width: 100%;
     background-image: url("../images/favpng_programmer-source-code-clip-art.png");
     background-size: 2000px 1000px;
     background-repeat: no-repeat;
-    background-position: 50% 25%2;
-    margin-bottom: 25px;
+    background-position: 50% 25%;
+}
+
+/* About-me section */
+.bio-section {
+    width: 100%;
+    display: inline-block;
 }
 
 .about-me {
-    height: 800px;
-    width: 100%;
     margin-bottom: 20px;
     padding: 50px;
-    
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: white;
+    color: var(--lighter-blue);
 }
 
 .about-me h2 {
-    float: left;
-    border-right: 10px solid #2a607c;
-    width: 200px;
-    height: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     color: #2a607c;
 }
 
-.about-me img {
+.float-left {
+    float: left;
+    margin-right: 25px;
+    width: 300px;
     max-height: 500px;
     display: flex;
-    margin-left: 300px;
     margin-right: 25px;
-    margin-top: 100px;
-    margin-bottom: 100px;
     border: 10px solid #799CB5;
     border-radius: 25px;
     background-color: #799CB5;
 }
 
+.bio-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: #2a607c;
+    border:10px solid #799CB5;
+    border-radius: 25px;
+    width: 40%;
+    float: left;
+    margin-top: 47px;
+    margin-left: 200px;
+    padding: 10px;
+    text-align: left;
+}
+/* end of about me section */
+
+/* work section */
 .work {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     margin-bottom: 20px;
     padding: 50px;
@@ -117,29 +148,170 @@ header a {
 }
 
 .work h2 {
-    float: left;
-    border-right: 10px solid white;
-    width: 200px;
-    height: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     color: white;
 }
 
+.work-container {
+    margin: 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-container a {
+    text-decoration: none;
+}
+
+.work-container h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.work-container h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.project-one {
+    margin: 20px 20px;
+    text-align: center;
+    border: 3px white solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: var(--darker-blue);
+}
+
+.project-one img {
+    max-width: 800px;
+    border: 3px white solid;
+}
+
+.project-two {
+    margin: 20px -3px;
+    text-align: center;
+    border: 3px white solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: var(--darker-blue);
+}
+
+.project-two img {
+    max-width: 600px;
+    border: 3px white solid;
+}
+
+.project-three {
+    margin: 20px 20px;
+    text-align: center;
+    border: 3px white solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: var(--darker-blue);
+}
+
+.project-three img {
+    max-width: 600px;
+    border: 3px white solid;
+}
+
+.border-one {
+    float: left;
+    border-right: 10px solid #2a607c;
+    width: 250px;
+    height: 500px;
+    padding-right: 100px;
+
+}
+
+.border-two {
+    float: left;
+    border-right: 10px solid white;
+    width: 250px;
+    height: 900px;
+    padding-right: 100px;
+}
+
+.border-three {
+    float: left;
+    border-right: 10px solid #2a607c;
+    width: 250px;
+    height: 100px;
+    padding-right: 100px;
+}
+/* end of work section */
+
+/* contact-me section */
 .contact-me {
-    height: 800px;
+    height: 200px;
     width: 100%;
     margin-bottom: 20px;
     padding: 50px;
     background-color: white;
 }
 
-.contact-me h2 {
-    float: left;
-    border-right: 10px solid #2a607c;
-    width: 200px;
-    height: 700px;
+.contact-me h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: #2a607c;
+    color: #ffffff;
 }
+
+.contact-me a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.contact-container {
+    margin: -14px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.email, .phone-number, .github {
+    margin: 20px 20px;
+    text-align: center;
+    border: 3px #2a607c solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: var(--lighter-blue);
+}
+
+.contact-me h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #2a607c;
+    padding-right: 300px;
+    text-align: center;
+}
+/* end of contact me section */
+
+@media screen and (max-width:1200px){
+    body {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .work-container {
+        flex-wrap: wrap;
+        
+    }
+
+    .work-container img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .bio-text, .float-left {
+        text-align: left;
+    }
+
+    .bio-text img {
+        width: 75%;
+    }
+
+}
+
+
