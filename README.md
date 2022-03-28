@@ -14,7 +14,8 @@ and css. As I improve more changes will be made to the portfolio.
 * The features that allow the screen to be viewed at different sizes is not fully functional yet.
 
 ## Webpage
-![_C__Users_Luis%20Riveros_Desktop_projects_professional-portfolio_index html (1)](https://user-images.githubusercontent.com/78315917/160333578-0cc1f09b-d4a1-44d8-a846-b22805dfb199.png)
+![_C__Users_Luis%20Riveros_Desktop_projects_professional-portfolio_index html (2)](https://user-images.githubusercontent.com/78315917/160334208-106598eb-f6aa-4de1-905d-800180db8725.png)
+
 
 Portfolio Direct Link: https://luimr88.github.io/my-portfolio/
 
