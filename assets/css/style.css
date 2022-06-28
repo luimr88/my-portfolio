@@ -184,7 +184,7 @@ footer h3{
 }
 
 .project-one img {
-    max-width: 800px;
+    width: 100%;
     border: 3px white solid;
 }
 
@@ -198,7 +198,7 @@ footer h3{
 }
 
 .project-two img {
-    max-width: 600px;
+    width: 100%;
     border: 3px white solid;
 }
 
@@ -212,7 +212,7 @@ footer h3{
 }
 
 .project-three img {
-    max-width: 600px;
+    width: 100%;
     border: 3px white solid;
 }
 
@@ -226,7 +226,7 @@ footer h3{
 }
 
 .project-four img {
-    max-width: 600px;
+    width: 100%;
     border: 3px white solid;
 }
 
@@ -240,7 +240,7 @@ footer h3{
 }
 
 .project-five img {
-    max-width: 600px;
+    width: 100%;
     border: 3px white solid;
 }
 
