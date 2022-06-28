@@ -140,7 +140,7 @@ footer h3{
 
 /* work section */
 .work {
-    height: 1000px;
+    height: 1500px;
     width: 100%;
     margin-bottom: 20px;
     padding: 50px;
@@ -226,6 +226,20 @@ footer h3{
 }
 
 .project-four img {
+    max-width: 600px;
+    border: 3px white solid;
+}
+
+.project-five {
+    margin: 20px 20px;
+    text-align: center;
+    border: 3px white solid;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: var(--darker-blue);
+}
+
+.project-five img {
     max-width: 600px;
     border: 3px white solid;
 }
